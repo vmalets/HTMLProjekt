@@ -25,10 +25,12 @@
 }
 
 .header_link {
+    display: inline-block;
     transition: background-color 0.25s;
     text-align: center;
     text-decoration: none;
     color: #ffffff;
+    margin-top: 25px;
     margin-left: 25px;
     padding: 5px 20px;
     border-radius: 15px;
@@ -92,10 +94,6 @@ div {
 
 
 /* article_page */
-
-.nav-link {
-    margin: 10px auto;
-}
 
 .body_article {
     background-image: url(img/newspaper.jpg);
