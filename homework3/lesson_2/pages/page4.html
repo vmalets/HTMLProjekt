@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="body_registration">
+    <header class="header">
+        <h1>Регистрация</h1>
+        <nav>
+            <a class="header_link" href="../index.html">Главная страница</a>
+            <a class="header_link" href="page1.html">Статьи</a>
+            <a class="header_link" href="page2.html">Каталог</a>
+            <a class="header_link" href="page3.html">Галерея изображений</a>
+            <a class="header_link" href="page5.html">Контакты</a>
+            <a class="header_link" href="page-nav.html">Навигация</a>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="div_article">
+            <form action="register.php" method="GET">
+                <fieldset>
+                    <input name="fname" type="text" placeholder="Имя">
+                    <input name="lname" type="text" placeholder="Фамилия">
+                    <input name="mname" type="text" placeholder="Отчество">
+                    <label for="dte">Дата рождения</label>
+                    <input id="dte" name="dte" type="date">
+                    <input name="eml" type="email" placeholder="Имейл">
+                    <input name="psw" type="password" placeholder="Пароль">
+                    <input name="web" type="text" placeholder="Адрес сайта" value="mysite.name">
+                    <label for="file">Добавьте фотографию</label>
+                    <input id="file" name="foto" type="file">
+                </fieldset>
+                <fieldset>
+                    <legend>Выбрать пол</legend>
+                    <label><input type="radio" name="rg" value="male">Муржской</label>
+                    <label><input type="radio" name="rg" value="female">Женский</label>
+                    <label><input type="radio" name="rg" value="other">Затрудняюсь ответить</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Выбрать предпочитаемую кухню</legend>
+                    <input type="checkbox" id="cb1" name="ukr" value="ukrainian"><label for="cb1">Украинская</label>
+                    <input type="checkbox" id="cb2" name="grg" value="georgian"><label for="cb2">Грузинская</label>
+                    <input type="checkbox" id="cb3" name="jap" value="japanian"><label for="cb3">Японская</label>
+                    <input type="checkbox" id="cb4" name="veg" value="veg"><label for="cb4">Веганы</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Расскажите о себе</legend>
+                    <label for="txt"></label><textarea placeholder="О себе в произвольной форме" name="txt" id="txt" cols="30" rows="10"></textarea>
+                </fieldset>
+                <fieldset>
+                    <input type="submit" value="Зарегистрироваться">
+                    <input type="reset" value="Очистить форму">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="copy">
+            <p>&copy; Malets Vladimir</p>
+        </div>
+    </footer>
+</body>
+
+</html>
