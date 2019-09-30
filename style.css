@@ -93,6 +93,10 @@ div {
 
 /* article_page */
 
+.nav-link {
+    margin: 10px auto;
+}
+
 .body_article {
     background-image: url(img/newspaper.jpg);
     background-size: 100%;
