@@ -13,9 +13,21 @@
     display: none;
 }
 
+.header-menu ul {
+    display: flex;
+    margin-top: 10px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.header-menu li {
+    margin: 0px;
+}
+
 .header {
     text-align: center;
-    align-items: center;
     width: 100%;
     height: 10vh;
     background-color: #566889;
@@ -27,11 +39,8 @@
 .header_link {
     display: inline-block;
     transition: background-color 0.25s;
-    text-align: center;
     text-decoration: none;
     color: #ffffff;
-    margin-top: 25px;
-    margin-left: 25px;
     padding: 5px 20px;
     border-radius: 15px;
 }
